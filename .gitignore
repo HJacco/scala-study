@@ -1,0 +1,20 @@
+##  git ignore ##
+
+## .idea ##
+.idea/
+*/.idea/
+*/*/.idea/
+
+## .iml ##
+*.iml
+*/*.iml
+*/*/*.iml
+
+## target ##
+target/
+*/target/
+*/*/target/
+
+## __ConfigTemp ##
+*/__ConfigTemp/
+*/*/__ConfigTemp/
