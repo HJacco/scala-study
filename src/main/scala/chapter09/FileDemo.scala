@@ -4,7 +4,7 @@ import scala.io.Source
 
 object FileDemo {
   def main(args: Array[String]): Unit = {
-    //读取一个文件
+    //读取一个文件  BufferedSource只能被使用一次
     val source = Source.fromFile("D:\\projects-pri\\scala-study\\src\\main\\resources\\desc.txt", "UTF-8")
 
     val lineIterator = source.getLines
@@ -18,5 +18,6 @@ object FileDemo {
     println(content)
 
     source.close()
+
   }
 }
